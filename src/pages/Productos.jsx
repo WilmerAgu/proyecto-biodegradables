@@ -1,29 +1,31 @@
 import { Link, Outlet } from 'react-router-dom'
 import Header from '../components/Header'
+import Footer from '../components/Footer'
+import './Productos.css'
 
 const Productos = () => {
   return (
-      <div>
+    <div>
         <Header />
-        <h2>Estos son nuestros productos</h2>
-        <section>
+        <section className='nav-productos'>
             <nav>
                 <ul>
                     <li>
-                        <Link to='/productos/bolsas'>Bolsas</Link> 
+                        <Link className='enlace-productos' to='/productos/bolsas'>Bolsas</Link> 
                     </li>
                     <li>
-                        <Link to="/productos/envases">Envases</Link>
+                        <Link className='enlace-productos' to="/productos/envases">Envases</Link>
                     </li>
                     <li>
-                        <Link to="/productos/toallitas">Toallitas Desechables</Link>
+                        <Link className='enlace-productos' to="/productos/toallitas">Toallitas Desechables</Link>
                     </li>
                 </ul>
             </nav>
             <div>
-                    <Outlet />
-                </div>
+                <Outlet />
+            </div>
         </section>
+        <Footer />
     </div>
   )
 }

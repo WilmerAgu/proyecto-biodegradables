@@ -3,7 +3,9 @@ import React from 'react'
 const Envases = () => {
   return (
     <div>
-        <h2>Esta la pagina de Envases</h2>
+        <h2>Esta es la pagina de envases</h2>  
+
+
     </div>
   )
 }
