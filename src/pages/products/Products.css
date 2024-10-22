@@ -1,4 +1,4 @@
-.bolsas-sesion {
+.products-sesion {
     padding: 40px;
     background-color: var(--color-terciario); /* Color de fondo suave */
     text-align: center;
@@ -6,26 +6,26 @@
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
 
-.bolsas-sesion h2 {
+.products-sesion h2 {
     font-size: 2.5rem;
     color: var(--color-primario); /* Verde agua oscuro */
     margin-bottom: 20px;
 }
 
-.bolsas-sesion p{
+.products-sesion p{
     font-size: 1.2rem;
     color: #333; /* Texto oscuro */
     margin-bottom: 30px;
 }
 
-.bolsas-container {
+.products-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px; /* Espacio entre las bolsas */
 }
 
-.bolsa {
+.product {
     background-color: #ffffff; /* Fondo blanco para las bolsas */
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
@@ -34,24 +34,24 @@
     transition: transform 0.3s; /* Transición suave para efectos */
 }
 
-.bolsa:hover {
+.product:hover {
     transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
 }
 
-.bolsa img {
+.product img {
     max-width: 100%;
     height: auto;
     border-radius: 8px;
     margin-bottom: 15px;
 }
 
-.bolsa h3 {
+.product h3 {
     font-size: 1.5rem;
     color: var(--color-primario); /* Verde agua oscuro */
     margin-bottom: 10px;
 }
 
-.bolsa p {
+.product p {
     font-size: 1rem;
     color: #333; /* Texto oscuro */
     line-height: 1.5; /* Mejora la legibilidad */
