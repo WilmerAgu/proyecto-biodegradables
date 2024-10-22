@@ -16,3 +16,38 @@ section ul li{
     color: var(--color-texto);
     text-decoration: none;
 }
+
+
+.container-productos {
+    font-family: var(--font-family);
+    max-width: 800px;
+    margin: 10px auto;
+    padding: 20px;
+    background-color: var(--color-terciario);
+    border-radius: 10px;
+}
+
+.encabezado-productos {
+    text-align: center;
+    background-color: var(--color-secundario);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.info-section{
+    margin: 20px 0;
+    text-align: center;
+}
+.capsule {
+    background-color: #fff;
+    border: 2px solid var(--color-secundario);
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+.capsule :hover {
+    transform: scale(1.02);
+}
